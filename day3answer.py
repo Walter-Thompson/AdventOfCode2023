@@ -111,6 +111,6 @@ for i in range(len(symbol_matches)):
         gear_ratios.append(potential_ratios[0]*potential_ratios[1])
     
 
-#Part 1 Answer
+#Part 2 Answer
 answer = sum(gear_ratios)
 print("Part 2 answer is:",answer)
